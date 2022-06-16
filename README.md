@@ -2,7 +2,7 @@
 
 My codewars solving process and solutions.
 
-I love solving problems so let's take on some codewars. Posting my solutions by kata level (8-1, 8 is beginner, 1 is crazy expert).
+I love solving problems so let's take on some codewars. Posting my solutions by kata level (1 through 8, but 8 is beginner and 1 is crazy expert).
 
 ## Contact
 
