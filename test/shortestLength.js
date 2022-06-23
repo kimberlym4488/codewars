@@ -1,6 +1,7 @@
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
+const findShort = require("../level-7/shortestLength");
 
 describe("shortest length", () => {
   it("should return the index value of the first shortest word in a sentence", () => {

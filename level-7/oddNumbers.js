@@ -24,3 +24,4 @@ function rowSumOddNumbers(n) {
 }
 
 //Just looked at the solved solution. its n** (n cubed. I'm not crying, you're crying)
+module.exports = rowSumOddNumbers;

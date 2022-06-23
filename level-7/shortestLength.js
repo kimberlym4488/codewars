@@ -15,3 +15,5 @@ function findShort(s){
         })
     return shortestString.length
     }
+
+    module.exports = findShort;
