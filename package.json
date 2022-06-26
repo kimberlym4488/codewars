@@ -1,5 +1,6 @@
 {
   "name": "codewars",
+
   "version": "1.0.0",
   "description": "My codewars solving process and solutions.",
   "main": "index.js",

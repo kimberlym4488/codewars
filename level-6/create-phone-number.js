@@ -28,3 +28,5 @@ function createPhoneNumber(numbers) {
     return numbers.join("");
   }
 }
+
+module.exports = createPhoneNumber;
