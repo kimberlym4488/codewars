@@ -22,7 +22,7 @@ function charUnique(string) {
     return "no alpha characters included in string";
   }
 
-  //my string should only accept letters now, no special characters or spaces
+  //I only want my string to iterate over letters now, no special characters or spaces. Let's use regex again on replaceAll method.
   let parsedString = string
     .toLowerCase()
     .replaceAll(/[`~!@#$%^&*()_|+\-=?;:'" ,.<>\{\}\[\]\\\/]/gi, "");
@@ -37,7 +37,7 @@ function charUnique(string) {
     counts[letter] = counts[letter] ? counts[letter] + 1 : 1;
   }
 
-  // I'll be returning one letter. Let's sort them to return the first '1' that is found. Every string has at least '1', 1 :)
+  // I'll be returning one letter. Let's sort them to return the first '1' that is found. Every string has at least '1', 1 :) Thanks to  https://medium.com/@gmcharmy/sort-objects-in-javascript-e-c-how-to-get-sorted-values-from-an-object-142a9ae7157c for the helpful hints on sorting and just getting the keys to work with, then slicing out the first one!
   let letter = Object.entries(counts)
     .sort((a, b) => a[1] - b[1])
     .map((el) => el[0])
