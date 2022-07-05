@@ -2,8 +2,6 @@ const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
 const smash = require("../level-8/sentenceSmash.js");
-console.log(smash)
-
 
 describe("smash", () => {
   it("Should return empty string for empty array.", () => {
