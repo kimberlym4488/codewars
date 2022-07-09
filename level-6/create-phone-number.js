@@ -18,7 +18,7 @@ function createPhoneNumber(numbers) {
   } else {
     // This is the structure for our array numbers
     // (123) 678-10111213
-
+    console.log(numbers + "we reached the else");
     numbers.splice(0, 0, "(");
     numbers.splice(4, 0, ")");
     numbers.splice(5, 0, " ");
